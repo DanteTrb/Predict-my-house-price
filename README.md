@@ -105,6 +105,21 @@ Modifica
 This app is ready to be deployed to:
 🌐 [x] Render
 
+📦 Deployment
+
+This API is deployed and live at:
+
+👉 [https://predict-my-house-price.onrender.com](https://predict-my-house-price.onrender.com)
+
+You can test the `/predict` endpoint directly using:
+
+bash
+curl -X POST https://predict-my-house-price.onrender.com/predict \
+  -H "Content-Type: application/json" \
+  -d '{ ... }'
+
+---
+
 ## 🤝 Contributing
 Contributions are welcome!
 Feel free to fork the repo, submit issues or open PRs.
